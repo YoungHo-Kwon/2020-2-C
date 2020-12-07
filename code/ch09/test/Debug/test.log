@@ -1,0 +1,4 @@
+﻿  test.c
+C:\2020-2 C\2020-2-C\code\ch09\test\test.c(10,9): warning C4477: 'printf' : 서식 문자열 '%p'에 'void *' 형식의 인수가 필요하지만 variadic 인수 5의 형식이 'int'입니다.
+C:\2020-2 C\2020-2-C\code\ch09\test\test.c(11,9): warning C4477: 'printf' : 서식 문자열 '%p'에 'void *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
+  test.vcxproj -> C:\2020-2 C\2020-2-C\code\ch09\Debug\test.exe
