@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #define MAX 5
 
 int main(void) {
@@ -7,7 +7,7 @@ int main(void) {
 	while (n <= MAX)
 		printf("%d\n", n++);
 
-	printf("\nÁ¦¾îº¯¼ö count => %d\n", n);
+	printf("\nì œì–´ë³€ìˆ˜ count => %d\n", n);
 
 	return 0;
 }

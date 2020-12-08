@@ -1,9 +1,9 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int main(void) {
 	const int MAX = 13;
 
-	printf("1¿¡¼­ %d±îÁö Àú¾î¼öÁß 3À¸·Î ³ª´©¾î ¶³¾îÁöÁö ¾Ê´Â ¼ö\n", MAX);
+	printf("1ì—ì„œ %dê¹Œì§€ ì €ì–´ìˆ˜ì¤‘ 3ìœ¼ë¡œ ë‚˜ëˆ„ì–´ ë–¨ì–´ì§€ì§€ ì•ŠëŠ” ìˆ˜\n", MAX);
 	for (int i = 1; i <= MAX; i++) {
 		if (i % 3 == 0)
 			continue;

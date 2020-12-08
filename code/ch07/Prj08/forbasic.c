@@ -1,14 +1,14 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #define MAX 5
 
 int main(void) {
 	int i = 1;
 
 	for (i = 1; i <= MAX; i++) {
-		printf("C ¾ð¾î Àç¹ÌÀÖ³×¿ä! %d\n", i);
+		printf("C ì–¸ì–´ ìž¬ë¯¸ìžˆë„¤ìš”! %d\n", i);
 	}
 
-	printf("\nÁ¦¾îº¯¼ö count => %d\n", i);
+	printf("\nì œì–´ë³€ìˆ˜ count => %d\n", i);
 
 	return 0;
 }

@@ -1,23 +1,23 @@
-#define _CRT_SECURE_NO_WARNINGS
+О╩©#define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
 
 int main(void) {
 	int i, sum, max;
 
-	printf("1©║╪╜╨нем а╓╪Ж╠НаЖюг гую╩ ╠╦гр ╬Гюг а╓╪Ж гоЁ╙ ют╥б: ");
+	printf("1Л≈░Л└°К╤─М└╟ Л═∙Л┬≤Й╧▄Л╖─Л²≤ М∙╘Л²└ Й╣╛М∙═ Л√▒Л²≤ Л═∙Л┬≤ М∙≤К┌≤ Л·┘К═╔: ");
 	scanf("%d", &max);
 
 	for (i = 1, sum = 0; i <= max; i++)
 		sum += i;
-	printf("\nfor ╧╝ю╦╥н ╠╦гя 1©║╪╜ %d╠НаЖ гу: %3d\n", max, sum);
+	printf("\nfor К╛╦Л°╪К║° Й╣╛М∙° 1Л≈░Л└° %dЙ╧▄Л╖─ М∙╘: %3d\n", max, sum);
 
 	i = 1, sum = 0;
 	while (i <= max) {
 		sum += i;
 		i++;
 	}
-	printf("while ╧╝ю╦╥н ╠╦гя 1©║╪╜ %d╠НаЖ гу: %3d\n", max, sum);
+	printf("while К╛╦Л°╪К║° Й╣╛М∙° 1Л≈░Л└° %dЙ╧▄Л╖─ М∙╘: %3d\n", max, sum);
 
 	return 0;
 }

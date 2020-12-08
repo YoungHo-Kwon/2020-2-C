@@ -1,22 +1,22 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int main(void) {
 	int i, sum;
 
 	for (i = 1, sum = 0; i <= 10; i++)
 		sum += i;
-	printf("1¿¡¼­ 10±îÁöÀÇ ÇÕ: %3d\n", sum);
+	printf("1ì—ì„œ 10ê¹Œì§€ì˜ í•©: %3d\n", sum);
 
 	for (i = 1, sum = 0; i <= 10;)
 		sum += i++;
-	printf("1¿¡¼­ 10±îÁöÀÇ ÇÕ: %3d\n", sum);
+	printf("1ì—ì„œ 10ê¹Œì§€ì˜ í•©: %3d\n", sum);
 
 	for (i = 0, sum = 0; i <= 9;)
 		sum += ++i;
-	printf("1¿¡¼­ 10±îÁöÀÇ ÇÕ: %3d\n", sum);
+	printf("1ì—ì„œ 10ê¹Œì§€ì˜ í•©: %3d\n", sum);
 
 	for (i = 1, sum = 0; i <= 10; sum += i++);
-	printf("1¿¡¼­ 10±îÁöÀÇ ÇÕ: %3d\n", sum);
+	printf("1ì—ì„œ 10ê¹Œì§€ì˜ í•©: %3d\n", sum);
 
 	return 0;
 }
