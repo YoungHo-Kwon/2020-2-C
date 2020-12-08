@@ -1,9 +1,9 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int main(void) {
-	printf("C ¾ð¾î Àç¹ÌÀÖ³×¿ä!\n");
-	printf("C ¾ð¾î Àç¹ÌÀÖ³×¿ä!\n");
-	printf("C ¾ð¾î Àç¹ÌÀÖ³×¿ä!\n");
+	printf("C ì–¸ì–´ ìž¬ë¯¸ìžˆë„¤ìš”!\n");
+	printf("C ì–¸ì–´ ìž¬ë¯¸ìžˆë„¤ìš”!\n");
+	printf("C ì–¸ì–´ ìž¬ë¯¸ìžˆë„¤ìš”!\n");
 
 	int n = 1;
 

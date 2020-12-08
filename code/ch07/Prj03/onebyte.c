@@ -1,8 +1,8 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int main(void) {
 	int num = 13;
-	printf("Á¤¼ö %dÀÇ ¿À¸¥ÂÊ 8ºñÆ® ³»ºÎ°ª:\n", num);
+	printf("ì •ìˆ˜ %dì˜ ì˜¤ë¥¸ìª½ 8ë¹„íŠ¸ ë‚´ë¶€ê°’:\n", num);
 
 	printf("%d", num >> 7 & 1);
 	printf("%d", num >> 6 & 1);
