@@ -1,9 +1,9 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 #include <stdlib.h>
 
 int main(void) {
-	printf("0 - %5d »çÀÌÀÇ ³­¼ö 5°³: rand()\n", RAND_MAX);
+	printf("0 - %5d ì‚¬ì´ì˜ ë‚œìˆ˜ 5ê°œ: rand()\n", RAND_MAX);
 	for (int i = 0; i < 5; i++)
 		printf("%5d ", rand());
 	puts("");

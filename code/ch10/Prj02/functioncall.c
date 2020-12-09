@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int add2(int a, int b);
 int findMax2(int, int);
@@ -8,8 +8,8 @@ int main(void) {
 	int a = 3, b = 5;
 
 	int max = findMax2(a, b);
-	printf("ÃÖ´ë: %d\n", max);
-	printf("ÇÕ: %d\n", add2(a, b));
+	printf("ìµœëŒ€: %d\n", max);
+	printf("í•©: %d\n", add2(a, b));
 
 
 	printMin(2, 5);
@@ -37,7 +37,7 @@ int findMin2(int x, int y) {
 
 void printMin(int a, int b) {
 	int min = a < b ? a : b;
-	printf("ÃÖ¼Ò: %d\n", min);
+	printf("ìµœì†Œ: %d\n", min);
 
 	return;
 }

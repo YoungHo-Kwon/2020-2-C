@@ -1,4 +1,4 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 
 #define ROWSIZE 2
 #define COLSIZE 3
@@ -6,7 +6,7 @@
 int main(void) {
 	int td[][3] = { {1}, {1,2,3} };
 
-	printf("¹İº¹¹® for¸¦ ÀÌ¿ëÇÏ¿© Ãâ·Â\n");
+	printf("ë°˜ë³µë¬¸ forë¥¼ ì´ìš©í•˜ì—¬ ì¶œë ¥\n");
 	for (int i = 0; i < ROWSIZE; i++) {
 		for (int j = 0; j < COLSIZE; j++)
 			printf("%d", td[i][j]);

@@ -1,9 +1,9 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 #include <math.h>
 
 int main(void) {
-	printf("   i   iÁ¦°ö   i¼¼Á¦°ö   Á¦°ö±Ù(sqrt)\n");
+	printf("   i   iì œê³±   iì„¸ì œê³±   ì œê³±ê·¼(sqrt)\n");
 	printf("---------------------------------------\n");
 	for (int i = 3; i < 7; i++)
 		printf("%3d %7.1f %9.1f %9.1f\n", i, pow(i, 2), pow(i, 3), sqrt(i));

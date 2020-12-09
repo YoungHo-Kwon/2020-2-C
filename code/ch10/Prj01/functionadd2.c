@@ -1,11 +1,11 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int main(void) {
 	int a = 3, b = 5;
 	int add2(int a, int b);
 
 	int sum = add2(a, b);
-	printf("ÇÕ: %d\n", sum);
+	printf("í•©: %d\n", sum);
 
 	return 0;
 }

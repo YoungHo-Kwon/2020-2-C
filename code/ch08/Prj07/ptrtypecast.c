@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int main(void) {
 	int value = 0x61626364;
@@ -6,7 +6,7 @@ int main(void) {
 
 	char* pc = (char*)&value;
 
-	printf("º¯¼ö¸í   ÀúÀå°ª      ÁÖ¼Ò°ª\n");
+	printf("ë³€ìˆ˜ëª…   ì €ìž¥ê°’      ì£¼ì†Œê°’\n");
 
 	printf("--------------------------\n");
 	printf(" value    %0#x    %u\n", value, pi);
